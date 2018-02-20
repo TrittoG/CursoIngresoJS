@@ -41,7 +41,7 @@ function Mostrar()
 		}
 
 
-		if(numero % 2 = 0)
+		if(numero % 2 == 0)
 		{
 			contpares++;
 		}
@@ -68,7 +68,9 @@ function Mostrar()
 	}
 
 
-	document.write("<br>" +"suma negativos" +negativos);
+	document.write("<br>" +"1)suma negativos " +negativos +"<br>" +"2)suma de positivos: " +positivos +"<br>" +"3)cantidad de positivos: " +cantPos 
+		+"<br>" +"4)cantidad de negativos: " +cantNeg +"<br>" +"5)cantidad de ceros: " +cantCer +"<br>" +"6)Cantidad de pares: " +contpares
+		+"<br>" +"7)promedio de positivos: " +promediopos +"<br>" +"8)promedio de negativos" +promedioneg +"<br>" +"9)diferencia entre positivos y negativos" +diferencia);
 
 
 
