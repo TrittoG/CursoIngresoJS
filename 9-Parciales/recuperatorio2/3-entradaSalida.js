@@ -12,7 +12,7 @@ function Mostrar()
 	ancho = parseInt(ancho);
 	largo = parseInt(largo);
 
-	perimetro = largo * ancho;
+	perimetro = (largo*2) + (ancho*2);
 
 	alambre = perimetro * 6;
 
